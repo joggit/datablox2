@@ -1,0 +1,14 @@
+I0115 21:47:35.702792  746315 load.go:37] Reloading schema and connectors...
+I0115 21:47:35.829589  746315 control.go:45] [engine.Service /emulator/datablox2 66c1] UpdateSchema(): done sources: schema/schema.gql [1384B] 
+I0115 21:47:35.902939  746315 control.go:73] [engine.Service /emulator/datablox2 66c1] UpdateConnector(default): done sources: connector/mutations.gql [1163B] connector/queries.gql [1855B] 
+I0115 21:47:36.115804  746315 codegen.go:82] [connector "default" javascriptSdk] Generating sources into "/home/ekloof1/Dev/repo/datablox2/dataconnect-generated/js/default-connector"
+I0115 21:47:36.125682  746315 collector.go:107] schema extensions wrote into "/home/ekloof1/Dev/repo/datablox2/dataconnect/.dataconnect/schema"
+Generated sources: prelude.gql [65151B] 
+I0115 21:47:36.132859  746315 collector.go:107] connector "default" javascriptSdk wrote into "/home/ekloof1/Dev/repo/datablox2/dataconnect-generated/js/default-connector"
+Generated sources: package.json [634B] index.d.ts [264B] esm/index.esm.js [188B] esm/package.json [17B] index.cjs.js [229B] 
+I0115 21:47:36.158940  746315 installsdk.go:48] Package @firebasegen/default-connector is already installed. Skipping installation
+I0115 21:47:36.172412  746315 load.go:115] Finished reloading
+I0115 21:47:36.172777  746315 dev.go:95] Listening on address (HTTP + gRPC): 127.0.0.1:9399
+I0115 21:47:36.172883  746315 dev.go:95] Listening on address (HTTP + gRPC): [::1]:9399
+I0115 21:48:24.022004  746315 control.go:45] [engine.Service /emulator/datablox2 7407] UpdateSchema(): done sources: schema/schema.gql [1384B] 
+I0115 21:48:24.022281  746315 control.go:73] [engine.Service /emulator/datablox2 7407] UpdateConnector(default): done sources: connector/mutations.gql [1163B] connector/queries.gql [1855B] 
