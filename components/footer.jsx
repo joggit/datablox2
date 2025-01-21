@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start text-center lg:text-left">
           {/* Logo and Tagline */}
           <div className="mb-6 lg:mb-0">
-            <a href="#" className="flex items-center justify-center lg:justify-start">
+            {/* <a href="#" className="flex items-center justify-center lg:justify-start">
               <Image
                 src={Logo}
                 className="h-12"
@@ -16,7 +16,7 @@ export default function Footer() {
                 width={150}
                 alt="Datablox Logo"
               />
-            </a>
+            </a> */}
             <p className="mt-4 text-sm text-gray-300">
               Empowering businesses with cutting-edge solutions and reliable technology services.
             </p>

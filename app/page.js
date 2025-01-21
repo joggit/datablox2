@@ -19,8 +19,8 @@ const HeroButtons = ({ buttons }) => (
         href={href}
         className={`inline-flex items-center justify-center px-6 py-4 text-base font-medium text-center rounded-lg sm:flex-1 lg:flex-none ${
           variant === "primary"
-            ? "text-white bg-primary hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 "
-            : "text-gray-900 border border-gray-300 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 "
+            ? "text-white bg-primary hover:bg-primary-800"
+            : "text-gray-900 border border-gray-300 hover:bg-gray-100 "
         }`}
       >
         {label}
